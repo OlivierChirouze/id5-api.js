@@ -224,7 +224,7 @@ The ID5 API script should be placed as high in the page as possible, but should 
 
 ### Initialize the API
 
-After loading the script, you must initialize the API with the `ID5.init()` method. You may pass configuration options directly into the init method. The result of the `init()` method is a variable that you will use to access the ID5 ID or perform other actions. This variable must be unique to the page (or scoped appropriately) in order not avoid collisions with other instances of the API on the same page.
+After loading the script, you must initialize the API with the `ID5.init()` method. You may pass configuration options directly into the init method. The result of the `init()` method is a variable that you will use to access the ID5 ID or perform other actions. This variable must be unique to the page (or scoped appropriately) in order to avoid collisions with other instances of the API on the same page.
 
 ```javascript
 // TODO modify with your own partnerId
